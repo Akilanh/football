@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#nav{
+    background-color: black;
+    box-shadow: 2px 2px 10px  black;
+
+
+}
+
+
+#navbarNav a{
+    color: white !important;
+    border-bottom: 2px solid transparent;
+    transition: all .2s;
+   
+   
+}
+#navbarNav a:hover{
+    border-bottom: 2px solid cyan;
+    
+
+    
+}
+section{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home img {
+    width: 400px;
+    height: 380px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 10px rgba(0, 240, 255, 0.7);
+    border: 10px solid #0c1a25;
+    background: linear-gradient(145deg, #00f0ff, #7600ff);
+    padding: 5px;
+  }
+
+  #about img {
+    width: 400px;
+    height: 380px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 10px rgba(0, 240, 255, 0.7);
+    border: 10px solid #0c1a25;
+    background: linear-gradient(145deg, #00f0ff, #7600ff);
+    padding: 5px;
+  }
+  
+  #contact input{
+    margin: 10px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+}
+#contact textarea{
+    margin: 10px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+}
+#contact button{
+    margin: 10px 0px;
+   
+}
+#contact button:hover{
+    background-color: blue;
+    box-shadow: inset -4px -4px 10px black ;
+    border: none;
+    color: white !important;
+}
+
+.social-links a i{
+    color:skyblue;
+    padding: 10px;
+    font-size: 30px;
+}
